@@ -107,7 +107,7 @@ $decrypted_text = OpenSSLCipherHandler::decryptText($cipher_text, $salt);
 
 echo $decrypted_text == $text ? "OK" : "ERROR";
 
-echo "&lt;br/>";
+echo "<br/>";
 
 //Hashing vars, arrays, objects:
 $var = array(
