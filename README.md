@@ -50,7 +50,7 @@ To see a working example, open [index.php](index.php) on your server.
 
 ### Crypto Key Handler
 
-> You can see an example [here](lib/encryption/crypto_example.php).
+> You can see an example [here](examples/crypto_example.php).
 
 **Methods:**
 - Create a key: `$key = CryptoKeyHandler::getKey();`
@@ -84,7 +84,7 @@ echo $decrypted_message == $message ? "OK" : "ERROR";
 
 ### OpenSSL Cipher Handler
 
-> You can see an example [here](lib/encryption/openssl_example.php).
+> You can see an example [here](examples/openssl_example.php).
 
 **Methods:**
 - Encrypts text: `$cipher_text = OpenSSLCipherHandler::encryptText($text, $salt);`
@@ -122,7 +122,7 @@ echo $decrypted_var == $var ? "OK" : "ERROR";
 
 ### Public / Private Key Handler
 
-> You can see an example [here](lib/encryption/pub_priv_example.php).
+> You can see an example [here](examples/pub_priv_example.php).
 
 **Methods:**
 - Encrypts text based in RSA file: `$encoded_string = $PublicPrivateKeyHandler->encryptString($text, $private_key_file, $passphrase);`

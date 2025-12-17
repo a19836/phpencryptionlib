@@ -46,7 +46,7 @@ p {margin:0 0 20px; text-align:center;}
 
 <div>
 	<h5>Crypto Key Handler</h5>
-	<p style="text-align:left;">You can see an example <a href="lib/encryption/crypto_example.php" target="crypto_example">here</a>.</p>
+	<p style="text-align:left;">You can see an example <a href="examples/crypto_example.php" target="crypto_example">here</a>.</p>
 	<p style="text-align:left;">Methods:</p>
 	<ul>
 		<li>Create a key: <span class="statement">$key = CryptoKeyHandler::getKey();</span></li>
@@ -83,7 +83,7 @@ echo $decrypted_message == $message ? "OK" : "ERROR";
 
 <div>
 	<h5>OpenSSL Cipher Handler</h5>
-	<p style="text-align:left;">You can see an example <a href="lib/encryption/openssl_example.php" target="openssl_example">here</a>.</p>
+	<p style="text-align:left;">You can see an example <a href="examples/openssl_example.php" target="openssl_example">here</a>.</p>
 	<p style="text-align:left;">Methods:</p>
 	<ul>
 		<li>Encrypts text: <span class="statement">$cipher_text = OpenSSLCipherHandler::encryptText($text, $salt);</span></li>
@@ -124,7 +124,7 @@ echo $decrypted_var == $var ? "OK" : "ERROR";
 
 <div>
 	<h5>Public / Private Key Handler</h5>
-	<p style="text-align:left;">You can see an example <a href="lib/encryption/pub_priv_example.php" target="pub_priv_example">here</a>.</p>
+	<p style="text-align:left;">You can see an example <a href="examples/pub_priv_example.php" target="pub_priv_example">here</a>.</p>
 	<p style="text-align:left;">Methods:</p>
 	<ul>
 		<li>Encrypts text based in RSA file: <span class="statement">$encoded_string = $PublicPrivateKeyHandler->encryptString($text, $private_key_file, $passphrase);</span></li>
