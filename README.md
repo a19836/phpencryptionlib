@@ -1,7 +1,7 @@
 # PHP Encryption Lib
 
 > Original Repos:   
-> - PHP Encryption Lib: https://github.com/a19836/phpencryptionlib/   
+> - PHP Encryption Lib: https://github.com/a19836/php-encryption-lib/   
 > - Bloxtor: https://github.com/a19836/bloxtor/
 
 ## Overview
